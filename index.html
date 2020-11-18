@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+   <link rel="stylesheet" href="style.css">
+   <title>Preview gambar yang diupload</title>
+</head>
+
+<body>
+
+   <div class="container">
+      <!-- tampilan gambar yg diupload -->
+      <div class="preview">
+         <h2 class="preview-text">Gambar yang diupload akan tampil disini</h2>
+         <img src="" class="preview-img" alt="image" title="image">
+         <div class="loading" hidden></div>
+      </div>
+
+      <!-- Custom file input -->
+      <label for="inputFile" class="custom-file-input" title="Pilih file">
+         <input type="file" class="input-file" id="inputFile" hidden>
+         <i class="fas fa-upload"></i>
+      </label>
+   </div>
+
+   <script src="./script.js"></script>
+</body>
+
+</html>
